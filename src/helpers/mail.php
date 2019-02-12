@@ -94,7 +94,7 @@ if (!function_exists('get_safe_tags')) {
     {
         return array_map(function ($tagName) {
             return '<' . $tagName . '>';
-        }, ['b', 'button', 'a', 'i', 'h1']);
+        }, ['b', 'button', 'a', 'i', 'h1', 'h2', 'h3', 'ul', 'ol', 'li', 'p', 'br', 'table', 'tr', 'td']);
     }
 }
 
